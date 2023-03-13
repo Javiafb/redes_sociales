@@ -1,0 +1,88 @@
+
+/*barrra redes sociales*/
+.container_redes {
+    width: 100px;
+    position: fixed;
+    bottom: 200px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  #red {
+    padding: 10px;
+    color: white;
+    background: rgb(197, 211, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: all 0.5s;
+  }
+  .bar li {
+    list-style: none;
+    width: 50%;
+    margin: 1px;
+  }
+  .bar li:hover {
+    width: 50%;
+    transition: all 0.3s;
+  }
+  .bar li a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: white;
+  }
+  
+  .facebook {
+    background: rgb(0, 100, 250);
+    border-radius: 30px;
+  }
+  .twitter {
+    background: rgb(0, 160, 223);
+    border-radius: 30px;
+  }
+  .instagram {
+    background: rgb(241, 77, 77);
+    border-radius: 30px;
+  }
+  .gmail {
+    background: rgb(118, 197, 0);
+    border-radius: 30px;
+  }
+  .whatsapp {
+    background: rgb(48, 232, 119);
+    border-radius: 30px;
+  }
+  
+  .instagram:hover {
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073;
+  }
+  
+  .facebook:hover {
+    background-color: #1d1df2;
+    box-shadow: 0 0 20px #1d2ff2;
+  }
+  
+  .whatsapp:hover {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+  }
+  
+  .twitter:hover {
+    background-color: #1da1f2;
+    box-shadow: 0 0 20px #1da1f2;
+  }
+  .gmail:hover {
+    background-color: #f16209;
+    box-shadow: 0 0 20px #ea4904;
+  }
